@@ -8,4 +8,10 @@ Entwicklung eines RobotCars mit verteilter Steuerarchitektur
 # Zielsetzung
 Ziel des Projekts war die Entwicklung eines intelligenten RobotCars mit verteilter Mikrocontroller-Architektur, das über eine Android-App gesteuert wird. Die Architektur sollte modular, skalierbar und kommunikationsfähig über CAN-Bus sein, um verschiedene Funktionen wie Fahrsteuerung, Beleuchtung, Umgebungserfassung und spätere autonome Fahrfunktionen zu ermöglichen.
 
-2. Systemarchitektur
+# Systemarchitektur
+## Verteilte Steuerungseinheiten:
+•	TM4C123GXL (ARM Cortex-M4F) als Hauptcontroller für zentrale Steuerung und Sensorfusion.
+•	ESP32 #1: Zuständig für die Lichtsteuerung des Fahrzeugs.
+•	ESP32 #2: Verantwortlich für das Radarsystem mit rotierendem Lidar.
+•	Raspberry Pi 3: Als zentrale Datenverarbeitungs- und Visualisierungseinheit; Kommunikation mit Android-App über CAN.
+
