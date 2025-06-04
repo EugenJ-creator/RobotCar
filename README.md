@@ -2,7 +2,7 @@
 RobotCars mit verteilter Mikrocontroller-Architektur
 Projektbeschreibung: Entwicklung eines RobotCars mit verteilter Steuerarchitektur
 
-
+RobotCar.jpg
 
 
 
