@@ -47,7 +47,8 @@ Senden aller wichtigen Daten über CAN-Bus an Raspberry Pi (Wird implementiert)
 # Raspberry Pi 3
 * Der Raspberry Pi 3 soll die zentrale Steuerung, Kommunikation und Benutzerinteraktion übernehmen (Wird implementiert)
 * Alle Microcontroller (TM4C123, ESP32) bleiben über CAN-Bus mit dem Raspberry Pi verbunden.
-* Kamera, WLAN, Cloud-Anbindung etc. 
+* Kamera, WLAN, Cloud-Anbindung etc.
+* Kommunikation über CAN-Modul MCP2515 (SPI)
 
 # Komponenten
 
@@ -55,6 +56,7 @@ Senden aller wichtigen Daten über CAN-Bus an Raspberry Pi (Wird implementiert)
 ** Lichtsensor 	ADC	Helligkeitsmessung
 ** Temp/Feuchte (Ens160 aht21)	I²C	Umgebungserkennung
 ** Magnetometer (MPU9250)	I²C	, Kompassfunktion (Wurde kalibriert)
+
 
 
 * Ledtreiber (MOSFET)
@@ -88,11 +90,12 @@ Um ein sauberes Drehzahlsignal aus dem gestörten Sensorsignal zu gewinnen, habe
 
 # Zukünftige Erweiterungen
 
-* Kamera Raspberry für Bilderkennung oder Livestream auf die App
-* Plotten auf App Radar Entfernungswerte
+* Raspberry  Kamera für Bilderkennung oder Livestream einsetzen
+* Plotten Radar Entfernungswerte auf Android App 
 * Sprachsteuerung per Android-App
 * Autonomer Modus mit Umschaltung zwischen App und Sensorik (Kollision erkennung, Abstand tempomat)
-* Webserver für den Pi bauen
+* Daten auf dem Pi loggen. Webserver für den Pi bauen
+* Battarie Spannung an Android App übermitteln
 
 
 # Fazit
