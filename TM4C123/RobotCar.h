@@ -1,0 +1,7 @@
+
+
+
+
+#define FREQUENCY_REAR_SIGNAL 2
+#define PRIORITY_TIMER_REAR_SIGNAL 6
+
