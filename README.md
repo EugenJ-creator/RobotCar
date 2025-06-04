@@ -37,6 +37,7 @@ Licht Steuerung (PWM, GPIO)
 # ESP32 #2
 Bare Metal
 Radarsteuerung (Wird implementiert)
+Senden aller wichtigen Daten über CAN-Bus an Raspberry Pi (Wird implementiert)
 
 # CC2650 (Firmware mit TI BLE Stack):
 * BLE Advertise + Connect
@@ -44,7 +45,7 @@ Radarsteuerung (Wird implementiert)
 * Empfangene Daten via UART an Tiva TM4C123GXL
 
 # Raspberry Pi 3
-* Der Raspberry Pi 3 übernimmt dabei die zentrale Steuerung, Kommunikation und Benutzerinteraktion (Wird implementiert)
+* Der Raspberry Pi 3 soll die zentrale Steuerung, Kommunikation und Benutzerinteraktion übernehmen (Wird implementiert)
 * Alle Microcontroller (TM4C123, ESP32) bleiben über CAN-Bus mit dem Raspberry Pi verbunden.
 * Kamera, WLAN, Cloud-Anbindung etc. 
 
@@ -91,7 +92,7 @@ Um ein sauberes Drehzahlsignal aus dem gestörten Sensorsignal zu gewinnen, habe
 * Plotten auf App Radar Entfernungswerte
 * Sprachsteuerung per Android-App
 * Autonomer Modus mit Umschaltung zwischen App und Sensorik (Kollision erkennung, Abstand tempomat)
-
+* Webserver für den Pi bauen
 
 
 # Fazit
