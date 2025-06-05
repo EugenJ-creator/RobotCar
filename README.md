@@ -80,7 +80,7 @@ OS - RTOS
 Beim Messen der Drehzahl des DC-Motors mit einem fotoelektrischen Geschwindigkeitssensor tritt ein Störsignal 50 MHz auf. Dieses Rauschen kommt vom Motorbetrieb - PWM Frequenz. 
 Um ein sauberes Drehzahlsignal aus dem gestörten Sensorsignal zu gewinnen, habe ich einen analogen Tiefpassfilter in Kombination mit einem Komparator eingesetzt.  
 
-<img src="https://github.com/EugenJ-creator/RobotCar/blob/main/RobotCar.jpg" width=65% height=65%>
+<img src="https://github.com/EugenJ-creator/RobotCar/blob/main/Rauschen.jpg" width=65% height=65%>
 
 
 # Zukünftige Erweiterungen
