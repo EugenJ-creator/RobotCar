@@ -40,7 +40,7 @@ Sensoren wie Lichtsensor mechanisch sicher zu montieren.
 
 * Duty Cycle Steuerung	Direkte Einstellung des PWM-Verhältnisses für den Motor (Motor driver DC L298N) oder Geschwindigkeitsvorgabe	(PID-Regler regelt Duty Cycle basierend auf gemessener Drehzahl)
 
-* Lesen und Verarbeitung von Sensordaten,  Sensorschnittstellen (ADC, GPIO (Edge triggered interrupt), I2C)
+* Lesen und Verarbeitung von Sensordaten,  Sensorschnittstellen (ADC, GPIO, I2C)
 * Lichtlogik (Automatische Lichtregelung und Manuelle)
 * Kommunikation mit ESP32, Raspberry über CAN Bus (CAN-Transceiver	MCP2551)
 * Kommunikation mit Bluetooth Modul (CC2650 (UART Rx/Tx)),  BLE-Kommando Weiterleitung 
@@ -71,6 +71,7 @@ Sensoren wie Lichtsensor mechanisch sicher zu montieren.
 # Komponenten
 
 * Lichtsensor 	ADC	Helligkeitsmessung
+* Photosensor für Drehezahlmessung (Edge triggered interrupt)
 * Temp/Feuchte (Ens160 aht21)	I²C	Umgebungserkennung
 * Magnetometer (MPU9250)	I²C	, Kompassfunktion (Wurde kalibriert)
 * Ledtreiber (MOSFET)
