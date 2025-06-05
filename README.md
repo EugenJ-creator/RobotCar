@@ -82,7 +82,8 @@ OS - RTOS
 * 3.3 V	 Sensoren, LED-Treiber, 	5V Zu 3,3 V DC-DC Step Down Netzteil Buck Modul AMS1117 800MA
 
 # Testphase
-* Zur Überprüfung der Funktionalität und Qualität der Signalverarbeitung und Kommunikation im verteilten System, wurden Messungen mit einem Oszilloskop durchgeführt. 
+* Zur Überprüfung der Funktionalität und Qualität der Signalverarbeitung und Kommunikation im verteilten System, wurden Messungen mit dem Oszilloskop durchgeführt.
+* Als Beispiel: Testing von CAN Bus 
 <img src="https://github.com/EugenJ-creator/RobotCar/blob/main/CAN_TestPhase.jpg" width=50% height=50%>
 <img src="https://github.com/EugenJ-creator/RobotCar/blob/main/CAN_Signal.jpg" width=50% height=50%>
 
