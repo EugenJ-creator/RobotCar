@@ -39,7 +39,7 @@ OS - RTOS
 
 * Lesen und Verarbeitung von Sensordaten,  Sensorschnittstellen (ADC, GPIO, I2C)
 * Lichtlogik (Automatische Lichtregelung und Manuelle)
-* Kommunikation mit ESP32, Raspberry via CAN (CAN-Transceiver	MCP2551)
+* Kommunikation mit ESP32, Raspberry über CAN Bus (CAN-Transceiver	MCP2551)
 * Kommunikation mit Bluetooth Modul (CC2650 (UART Rx/Tx)),  BLE-Kommando Weiterleitung 
 
 # ESP32 #1
