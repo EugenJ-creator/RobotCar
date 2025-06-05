@@ -29,15 +29,15 @@ OS - RTOS
 
 # ESP32 #1
 
-Bare Metal 
-Empfang von Steuerbefehlen über CAN-Bus 
-Licht Steuerung (PWM, GPIO)
+* Bare Metal 
+* Empfang von Steuerbefehlen über CAN-Bus 
+* Licht Steuerung (PWM, GPIO)
 
 
 # ESP32 #2
-Bare Metal
-Radarsteuerung (Wird implementiert)
-Senden aller wichtigen Daten über CAN-Bus an Raspberry Pi (Wird implementiert)
+* Bare Metal
+* Radarsteuerung (Wird implementiert)
+* Senden aller wichtigen Daten über CAN-Bus an Raspberry Pi (Wird implementiert)
 
 # CC2650 (Firmware mit TI BLE Stack):
 * BLE Advertise + Connect
