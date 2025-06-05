@@ -45,24 +45,24 @@ Sensoren wie Lichtsensor mechanisch sicher zu montieren.
 * Kommunikation mit ESP32, Raspberry über CAN Bus (CAN-Transceiver	MCP2551)
 * Kommunikation mit Bluetooth Modul (CC2650 (UART Rx/Tx)),  BLE-Kommando Weiterleitung 
 
-# ESP32 #1
+# ESP32 #1 (Features)
 
 * Bare Metal 
 * Empfang von Steuerbefehlen über CAN-Bus 
 * Licht Steuerung (PWM, GPIO)
 
 
-# ESP32 #2
+# ESP32 #2 (Features)
 * Bare Metal
 * Radarsteuerung (Wird implementiert)
 * Senden aller wichtigen Daten über CAN-Bus an Raspberry Pi (Wird implementiert)
 
-# CC2650 (Firmware mit TI BLE Stack):
+# CC2650 (Firmware mit TI BLE Stack) (Features)
 * BLE Advertise + Connect
 * GATT-Server mit benutzerdefiniertem Service/Characteristic 
 * Empfangene Daten via UART an Tiva TM4C123GXL
 
-# Raspberry Pi 3
+# Raspberry Pi 3 (Features)
 * Der Raspberry Pi 3 soll die zentrale Steuerung, Kommunikation und Benutzerinteraktion übernehmen (Wird implementiert)
 * Alle Microcontroller (TM4C123, ESP32) bleiben über CAN-Bus mit dem Raspberry Pi verbunden.
 * Kamera, WLAN, Cloud-Anbindung etc.
@@ -91,7 +91,7 @@ Sensoren wie Lichtsensor mechanisch sicher zu montieren.
 <img src="https://github.com/EugenJ-creator/RobotCar/blob/main/CAN_TestPhase.jpg" width=50% height=50%>
 <img src="https://github.com/EugenJ-creator/RobotCar/blob/main/CAN_Signal.jpg" width=50% height=50%>
 
-# Android-App
+# Android-App (Features)
 
 * Bluetooth-Verbindung zum RobotCar
 
