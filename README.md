@@ -8,6 +8,14 @@ Entwicklung eines RobotCars mit verteilter Steuerarchitektur
 # Zielsetzung
 Ziel des Projekts war die Entwicklung eines intelligenten RobotCars mit verteilter Mikrocontroller-Architektur, das über eine Android-App gesteuert wird. Die Architektur sollte modular, skalierbar und kommunikationsfähig über CAN-Bus sein, um verschiedene Funktionen wie Fahrsteuerung, Beleuchtung, Umgebungserfassung und spätere autonome Fahrfunktionen zu ermöglichen. 
 
+# Das RobotCar basiert auf dem "DIY Smart Car Chassis Kit", ausgestattet mit:
+
+* Einem antriebsmotor
+* MG996R-Servo für Lenkung
+* Stabile Aluminium-/Acryl-Plattform mit Kugellagern
+* Diese Plattform bietet mechanische Stabilität, Traktion und Modularität für zusätzliche Komponenten wie Sensoren, Controller und Aktuatoren.
+* <img src="https://github.com/EugenJ-creator/RobotCar/blob/main/DashboardAndroidApp.jpg" width=50% height=50%>
+
 # Systemarchitektur
 ## Verteilte Steuerungseinheiten:
 * TM4C123GXL (ARM Cortex-M4F) als Hauptcontroller für zentrale Steuerung und Sensorfusion. Kommunikation mit Android APP über Bluetooth (CC2650) Modul.
