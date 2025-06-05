@@ -13,7 +13,7 @@ Ziel des Projekts war die Entwicklung eines intelligenten RobotCars mit verteilt
 * TM4C123GXL (ARM Cortex-M4F) als Hauptcontroller für zentrale Steuerung und Sensorfusion. Kommunikation mit Android APP über Bluetooth (CC2650) Modul.
 * ESP32 #1: Zuständig für die Lichtsteuerung des Fahrzeugs.
 * ESP32 #2: Verantwortlich für das Radarsystem mit rotierendem Lidar.
-* Raspberry Pi 3: Als zentrale Datenverarbeitungs- und Visualisierungseinheit; Video streaming; Datenübertragung;  Kommunikation mit Android-App über WIFI Modul.
+* Raspberry Pi 3: Als zentrale Datenverarbeitungs- und Visualisierungseinheit; Video streaming; Datenübertragung;  Kommunikation mit Android-App über WIFI Modul (Wird implementiert)
 
 # TM4C123GXL
 OS - RTOS
