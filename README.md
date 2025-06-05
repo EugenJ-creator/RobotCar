@@ -23,7 +23,7 @@ Ziel des Projekts war die Entwicklung eines intelligenten RobotCars mit verteilt
 
 * Zusätzliche Trägerstrukturen und Halterungen (aus Aluminium, Kusstoff und 3D-gedruckten Teilen) wurden konstruiert, um:
 Sensoren wie Lichtsensor mechanisch sicher zu montieren.
-<img src="https://github.com/EugenJ-creator/RobotCar/blob/main/LichtSensor.jpg" width=50% height=50%>
+<img src="https://github.com/EugenJ-creator/RobotCar/blob/main/PhotoSensor.jpg" width=50% height=50%>
 
 # Systemarchitektur
 ## Verteilte Steuerungseinheiten:
