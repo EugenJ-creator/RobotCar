@@ -33,11 +33,14 @@ Sensoren wie Lichtsensor mechanisch sicher zu montieren.
 * Raspberry Pi 3: Als zentrale Datenverarbeitungs- und Visualisierungseinheit; Video streaming; Datenübertragung;  Kommunikation mit Android-App über WIFI Modul (Wird implementiert)
 
 # TM4C123GXL
-OS - RTOS
+* OS - RTOS. Features:
+  - Einsetzung von Semaphoren um ermöglichen es Tasks zu synchronisieren.
+  - Mechanism für mutual exclusion um resourcen zu sharen.
+  - Task prioritesierung
 
- * Duty Cycle Steuerung	Direkte Einstellung des PWM-Verhältnisses für den Motor (Motor driver DC L298N) oder Geschwindigkeitsvorgabe	(PID-Regler regelt Duty Cycle basierend auf gemessener Drehzahl)
+* Duty Cycle Steuerung	Direkte Einstellung des PWM-Verhältnisses für den Motor (Motor driver DC L298N) oder Geschwindigkeitsvorgabe	(PID-Regler regelt Duty Cycle basierend auf gemessener Drehzahl)
 
-* Lesen und Verarbeitung von Sensordaten,  Sensorschnittstellen (ADC, GPIO, I2C)
+* Lesen und Verarbeitung von Sensordaten,  Sensorschnittstellen (ADC, GPIO (Edge triggered interrupt), I2C)
 * Lichtlogik (Automatische Lichtregelung und Manuelle)
 * Kommunikation mit ESP32, Raspberry über CAN Bus (CAN-Transceiver	MCP2551)
 * Kommunikation mit Bluetooth Modul (CC2650 (UART Rx/Tx)),  BLE-Kommando Weiterleitung 
