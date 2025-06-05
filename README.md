@@ -14,7 +14,7 @@ Ziel des Projekts war die Entwicklung eines intelligenten RobotCars mit verteilt
 * MG996R-Servo für Lenkung
 * Stabile Aluminium-/Acryl-Plattform mit Kugellagern
 * Diese Plattform bietet mechanische Stabilität, Traktion und Modularität für zusätzliche Komponenten wie Sensoren, Controller und Aktuatoren.
-* <img src="https://github.com/EugenJ-creator/RobotCar/blob/main/DashboardAndroidApp.jpg" width=50% height=50%>
+* <img src="https://github.com/EugenJ-creator/RobotCar/blob/main/Platform.jpg" width=50% height=50%>
 
 # Systemarchitektur
 ## Verteilte Steuerungseinheiten:
