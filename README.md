@@ -18,9 +18,9 @@ Ziel des Projekts war die Entwicklung eines intelligenten RobotCars mit verteilt
 # TM4C123GXL
 OS - RTOS
 
-* Steuerung von Motoren. PWM-Ausgabe für DC und Stepper motor (Motor driver DC L298N)
-** 1. Duty Cycle Steuerung	Direkte Einstellung des PWM-Verhältnisses für den Motor
-** 2. Geschwindigkeitsvorgabe	PID-Regler regelt Duty Cycle basierend auf gemessener Drehzahl
+## Steuerung von Motoren. PWM-Ausgabe für DC und Stepper motor (Motor driver DC L298N)
+ 1. Duty Cycle Steuerung	Direkte Einstellung des PWM-Verhältnisses für den Motor
+ 2. Geschwindigkeitsvorgabe	PID-Regler regelt Duty Cycle basierend auf gemessener Drehzahl
 
 * Lesen und Verarbeitung von Sensordaten,  Sensorschnittstellen (ADC, GPIO, I2C)
 * Lichtlogik (Automatische Lichtregelung und Manuelle)
