@@ -69,11 +69,13 @@ OS - RTOS
 
 * Bluetooth-Verbindung zum RobotCar
 
-* Tastenfelder für Steuerung (↑ ↓ ← → STOPP), Tempomat aktivierung
+* Tastenfelder für Steuerung (↑ ↓ ← → STOPP), Tempomat aktivierung, Huppe
 
 * Anzeige von Telemetrie: Temperatur, Feuchtigkeit, Geschwindigkeit,  Kompass
 
 * Lichtsteuerung
+
+<img src="https://github.com/EugenJ-creator/RobotCar/blob/main/RobotCar.jpg" width=65% height=65%>
 
 # Problemlösung
 
