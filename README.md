@@ -81,7 +81,7 @@ OS - RTOS
 * 5 V	Mikrocontroller (TM4C, ESP32, CC2650, Raspberry)	Step-Down-Regler von 14 V
 * 3.3 V	 Sensoren, LED-Treiber, 	5V Zu 3,3 V DC-DC Step Down Netzteil Buck Modul AMS1117 800MA
 
-# Testphase
+# Testing und Tools
 * Zur Überprüfung der Funktionalität und Qualität der Signalverarbeitung und Kommunikation im verteilten System, wurden Messungen mit dem Oszilloskop durchgeführt.
 * CAN Bus Testing:
 <img src="https://github.com/EugenJ-creator/RobotCar/blob/main/CAN_TestPhase.jpg" width=50% height=50%>
