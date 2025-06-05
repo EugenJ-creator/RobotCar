@@ -18,7 +18,8 @@ Ziel des Projekts war die Entwicklung eines intelligenten RobotCars mit verteilt
 
 # Platform weiterentwicklung
 Die Plattform wurde mechanisch erweitert und skaliert, um die Integration aller elektronischen Komponenten (Mikrocontroller, Sensoren, Stromversorgung, Radar, Kamera usw.) zu ermöglichen.
-<img src="https://github.com/EugenJ-creator/RobotCar/blob/main/Entwicklung.jpg" width=50% height=50%>
+
+* <img src="https://github.com/EugenJ-creator/RobotCar/blob/main/Entwicklung.jpg" width=50% height=50%>
 
 
 
