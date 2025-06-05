@@ -1,4 +1,4 @@
-# RobotCar
+# RobotCar Projekt (durchgeführt von Evgheni Jaruc)
 ## Projektbeschreibung: 
 Entwicklung eines RobotCars mit verteilter Steuerarchitektur
 
