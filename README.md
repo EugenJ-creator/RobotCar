@@ -18,7 +18,7 @@ Ziel des Projekts war die Entwicklung eines intelligenten RobotCars mit verteilt
 # TM4C123GXL
 OS - RTOS
 
-* Steuerung von Motoren. PWM-Ausgabe für DC und Stepper motor (Motor driver for DC L298N)
+* Steuerung von Motoren. PWM-Ausgabe für DC und Stepper motor (Motor driver DC L298N)
 ** 1. Duty Cycle Steuerung	Direkte Einstellung des PWM-Verhältnisses für den Motor
 ** 2. Geschwindigkeitsvorgabe	PID-Regler regelt Duty Cycle basierend auf gemessener Drehzahl
 
@@ -52,22 +52,18 @@ Senden aller wichtigen Daten über CAN-Bus an Raspberry Pi (Wird implementiert)
 
 # Komponenten
 
-* Sensoren
-** Lichtsensor 	ADC	Helligkeitsmessung
-** Temp/Feuchte (Ens160 aht21)	I²C	Umgebungserkennung
-** Magnetometer (MPU9250)	I²C	, Kompassfunktion (Wurde kalibriert)
-
-
-
+* Lichtsensor 	ADC	Helligkeitsmessung
+* Temp/Feuchte (Ens160 aht21)	I²C	Umgebungserkennung
+* Magnetometer (MPU9250)	I²C	, Kompassfunktion (Wurde kalibriert)
 * Ledtreiber (MOSFET)
-
-
+* Radarsystem (DC motor, Hall Sensor, Magnet, Lidar)
+* Motor driver L298N
 
 
 # Spannungsversorgung im Robot Car
 
 * 14 V	Hauptversorgung Battarie 12800mah  37.44Wh
-* 5 V	Mikrocontroller (TM4C, ESP32, CC2650, Raspberry)	Step-Down-Regler von 14 V (L298N)
+* 5 V	Mikrocontroller (TM4C, ESP32, CC2650, Raspberry)	Step-Down-Regler von 14 V
 * 3.3 V	 Sensoren, LED-Treiber, 	5V Zu 3,3 V DC-DC Step Down Netzteil Buck Modul AMS1117 800MA
 
 
@@ -99,4 +95,4 @@ Um ein sauberes Drehzahlsignal aus dem gestörten Sensorsignal zu gewinnen, habe
 
 
 # Fazit
-Das Projekt demonstriert ein modernes, verteiltes Steuerungssystem im Bereich der mobilen Robotik. Es bietet eine realistische Plattform, um Kompetenzen in Embedded-Systemen, Mikrocontrollerprogrammierung, Kommunikationstechnik und Automatisierung aufzubauen. Durch den modularen Aufbau kann das System flexibel erweitert und für weitere Experimente genutzt werden.
+Das Projekt demonstriert ein verteiltes Steuerungssystem. Es bietet eine  Plattform, um Kompetenzen in Embedded-Systemen, Mikrocontrollerprogrammierung, Kommunikationstechnik und Automatisierung aufzubauen. Durch den modularen Aufbau kann das System flexibel erweitert und für weitere Experimente genutzt werden.
