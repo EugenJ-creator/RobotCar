@@ -76,6 +76,8 @@ OS - RTOS
 * Lichtsteuerung
 
 <img src="https://github.com/EugenJ-creator/RobotCar/blob/main/DashboardAndroidApp.jpg" width=50% height=50%>
+<img src="https://github.com/EugenJ-creator/RobotCar/blob/main/MenuAndroidApp.jpg" width=50% height=50%>
+<img src="https://github.com/EugenJ-creator/RobotCar/blob/main/LightIntencityAndroidApp.jpg" width=50% height=50%>
 
 # Problemlösung
 
