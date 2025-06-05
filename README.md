@@ -71,9 +71,9 @@ OS - RTOS
 * Temp/Feuchte (Ens160 aht21)	I²C	Umgebungserkennung
 * Magnetometer (MPU9250)	I²C	, Kompassfunktion (Wurde kalibriert)
 * Ledtreiber (MOSFET)
-* Radarsystem (DC motor, Hall Sensor, Magnet, Lidar)
 * Motor driver L298N
-
+* Radarsystem (DC motor, Hall Sensor, Magnet, Lidar). Zur Montage und Integration der Radar-Komponenten wurden passgenaue Halterungen und Aufbauten mit einem 3D-Drucker gefertigt.
+<img src="https://github.com/EugenJ-creator/RobotCar/blob/main/RadarAssamble.jpg" width=50% height=50%>
 
 # Spannungsversorgung im Robot Car
 
