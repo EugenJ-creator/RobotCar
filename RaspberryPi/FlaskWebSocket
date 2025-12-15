@@ -1,0 +1,98 @@
+from flask import Flask, render_template, request
+from flask_socketio import SocketIO, send, emit, join_room, leave_room
+
+from flask_sock import Sock
+import logging
+import json
+from gpiozero import Servo
+from time import sleep
+
+from gpiozero.pins.pigpio import PiGPIOFactory
+
+factory = PiGPIOFactory()
+
+servoX = Servo(13, pin_factory= factory)
+servoY = Servo(19, pin_factory= factory)
+
+
+log = logging.getLogger('werkzeug')
+log.setLevel(logging.DEBUG)
+
+
+app = Flask(__name__)
+sock = Sock(app)
+
+@app.before_request
+def log_request():
+    print("----- Incoming Request -----")
+    print("Method:", request.method)
+    print("Path:", request.path)
+    print("Headers:", dict(request.headers))
+    print("Data:", request.get_data())
+    print("----------------------------")
+
+
+app.config['SECRET_KEY'] = 'your_secret_key'
+
+
+
+# @app.route('/')
+# def index():
+    # return render_template('index.html')
+
+@app.route("/")
+def home():
+    return "Server is running."
+
+
+@sock.route('/ws')   # <- Use a dedicated WebSocket endpoint
+def websocket(ws):
+    print("Client connected!")
+    while True:
+        data = ws.receive()
+        # if not data:
+            # continue
+
+        print("Received:", data)
+    
+        try:    
+            msg = json.loads(data)
+            
+            # X/Y auslesen
+            x = msg.get("x")
+            y = msg.get("y")
+            
+            # Werte validieren
+            if x is not None:
+                set_servo_x(x)
+
+            if y is not None:
+                set_servo_y(y)
+
+        except Exception as e:
+            print("Fehler:", e)
+            ws.send("Invalid JSON")
+
+        ws.send("OK")
+
+
+def set_servo_x(value):
+    servoX.value = value
+    print(f"Setze Servo X auf {value}")
+    
+
+
+def set_servo_y(value):
+    servoY.value = value
+    print(f"Setze Servo Y auf {value}")
+    
+        
+# ws.send(f"You said: {data}")
+
+
+
+# if __name__ == '__main__':
+    # socketio.run(app,'192.168.178.24',debug=True)
+
+if __name__ == '__main__':
+    app.run(host='192.168.178.24', port=5000, debug=True)
