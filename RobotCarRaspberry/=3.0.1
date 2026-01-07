@@ -1,0 +1,23 @@
+Defaulting to user installation because normal site-packages is not writeable
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Collecting Flask-SQLAlchemy
+  Downloading https://www.piwheels.org/simple/flask-sqlalchemy/flask_sqlalchemy-3.1.1-py3-none-any.whl (25 kB)
+Requirement already satisfied: flask>=2.2.5 in /home/jenea/.local/lib/python3.13/site-packages (from Flask-SQLAlchemy) (3.1.2)
+Collecting sqlalchemy>=2.0.16 (from Flask-SQLAlchemy)
+  Downloading sqlalchemy-2.0.45-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata (9.5 kB)
+Requirement already satisfied: blinker>=1.9.0 in /usr/lib/python3/dist-packages (from flask>=2.2.5->Flask-SQLAlchemy) (1.9.0)
+Requirement already satisfied: click>=8.1.3 in /home/jenea/.local/lib/python3.13/site-packages (from flask>=2.2.5->Flask-SQLAlchemy) (8.3.1)
+Requirement already satisfied: itsdangerous>=2.2.0 in /home/jenea/.local/lib/python3.13/site-packages (from flask>=2.2.5->Flask-SQLAlchemy) (2.2.0)
+Requirement already satisfied: jinja2>=3.1.2 in /usr/lib/python3/dist-packages (from flask>=2.2.5->Flask-SQLAlchemy) (3.1.6)
+Requirement already satisfied: markupsafe>=2.1.1 in /usr/lib/python3/dist-packages (from flask>=2.2.5->Flask-SQLAlchemy) (2.1.5)
+Requirement already satisfied: werkzeug>=3.1.0 in /home/jenea/.local/lib/python3.13/site-packages (from flask>=2.2.5->Flask-SQLAlchemy) (3.1.4)
+Collecting greenlet>=1 (from sqlalchemy>=2.0.16->Flask-SQLAlchemy)
+  Downloading greenlet-3.3.0-cp313-cp313-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl.metadata (4.1 kB)
+Requirement already satisfied: typing-extensions>=4.6.0 in /usr/lib/python3/dist-packages (from sqlalchemy>=2.0.16->Flask-SQLAlchemy) (4.13.2)
+Downloading sqlalchemy-2.0.45-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl (3.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 3.1 MB/s  0:00:01
+Downloading greenlet-3.3.0-cp313-cp313-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl (599 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 599.2/599.2 kB 2.2 MB/s  0:00:00
+Installing collected packages: greenlet, sqlalchemy, Flask-SQLAlchemy
+
+Successfully installed Flask-SQLAlchemy-3.1.1 greenlet-3.3.0 sqlalchemy-2.0.45
